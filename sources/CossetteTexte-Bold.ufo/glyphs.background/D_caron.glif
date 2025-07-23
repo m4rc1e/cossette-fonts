@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dcaron" format="2">
+  <advance width="691"/>
+  <unicode hex="010E"/>
+  <outline>
+    <contour>
+      <point x="337" y="800" type="line"/>
+      <point x="257" y="920" type="line"/>
+      <point x="117" y="920" type="line"/>
+      <point x="217" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="257" y="800" type="line"/>
+      <point x="377" y="800" type="line"/>
+      <point x="477" y="920" type="line"/>
+      <point x="337" y="920" type="line"/>
+    </contour>
+    <component base="D"/>
+    <component base="caroncomb.cap" xOffset="273"/>
+  </outline>
+</glyph>
