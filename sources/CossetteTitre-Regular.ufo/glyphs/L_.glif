@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
+  <advance width="400"/>
+  <unicode hex="004C"/>
+  <anchor x="100" y="800" name="top"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="140" y="600" name="caron.alt"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="390" y="0" type="line"/>
+      <point x="390" y="100" type="line"/>
+      <point x="140" y="100" type="line"/>
+      <point x="140" y="800" type="line"/>
+      <point x="60" y="800" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.8,1,1</string>
+    </dict>
+  </lib>
+</glyph>

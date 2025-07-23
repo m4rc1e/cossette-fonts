@@ -1,0 +1,6 @@
+familyName: Cossette Titre
+sources:
+  - CossetteTitre-Regular.ufo
+  - CossetteTitre-Bold.ufo
+buildVariable: false
+includeSourceFixes: true

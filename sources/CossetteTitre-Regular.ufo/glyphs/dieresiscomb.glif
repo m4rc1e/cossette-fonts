@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <advance width="0"/>
+  <anchor x="0" y="600" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-110" y="660" type="line"/>
+      <point x="-30" y="660" type="line"/>
+      <point x="-30" y="760" type="line"/>
+      <point x="-110" y="760" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="660" type="line"/>
+      <point x="110" y="660" type="line"/>
+      <point x="110" y="760" type="line"/>
+      <point x="30" y="760" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.8,1,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,6 @@
+familyName: Cossette Texte
+sources:
+  - CossetteTexte-Regular.ufo
+  - CossetteTexte-Bold.ufo
+buildVariable: false
+includeSourceFixes: true

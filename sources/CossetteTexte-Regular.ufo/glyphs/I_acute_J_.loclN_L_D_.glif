@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute_J.loclNLD" format="2">
+  <advance width="656"/>
+  <outline>
+    <component base="I_J.loclNLD"/>
+    <component base="acutecomb.cap" xOffset="118"/>
+    <component base="acutecomb.cap" xOffset="538"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-07-23 14:29:55 +0000</string>
+      <key>public.markColor</key>
+      <string>0,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="curve"/>
+      <point x="330" y="0" type="line"/>
+      <point x="330" y="240"/>
+      <point x="410" y="460"/>
+      <point x="560" y="640" type="curve"/>
+      <point x="560" y="800" type="line"/>
+      <point x="40" y="800" type="line"/>
+      <point x="40" y="640" type="line"/>
+      <point x="480" y="640" type="line"/>
+      <point x="410" y="640" type="line"/>
+      <point x="260" y="460"/>
+      <point x="170" y="240"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-07-23 14:17:36 +0000</string>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

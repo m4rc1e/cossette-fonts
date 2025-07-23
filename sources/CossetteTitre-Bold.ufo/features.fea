@@ -1,0 +1,90 @@
+@figures = [ zero one two three four five six seven eight nine ];
+
+@figuresTabular = [ zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab ];
+
+@punctuationUppercaseOff = [ hyphen endash emdash bar parenleft parenright bracketleft bracketright braceleft braceright guillemetleft guillemetright guilsinglleft guilsinglright exclamdown questiondown at ];
+
+@punctuationUppercaseOn = [ hyphen.case endash.case emdash.case bar.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case exclamdown.case questiondown.case at.case ];
+
+@uppercase = [ A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth F G Gbreve Gcommaaccent Gdotaccent Germandbls H Hbar I IJ IJacute Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scedilla Scommaaccent T Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent zero one two three four five six seven eight nine zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab ];
+
+@ftr = [ f t r f.short t.short ];
+
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+languagesystem latn NLD;
+
+# Prefix: Prefix
+
+
+feature locl {
+    
+    script latn;
+    
+    language AZE;
+    lookup loclTRK {
+	    sub i by idotaccent;
+    } loclTRK;
+    language CRT;
+    lookup loclTRK;
+    language KAZ;
+    lookup loclTRK;
+    language TAT;
+    lookup loclTRK;
+    language TRK;
+    lookup loclTRK;
+    
+    language ROM;
+    lookup loclROM {
+	    sub Scedilla by Scommaaccent;
+	    sub scedilla by scommaaccent;
+	    sub Tcedilla by Tcommaaccent;
+	    sub tcedilla by tcommaaccent;
+    } loclROM;
+    language MOL;
+    lookup loclROM;
+    
+    language CAT; 
+    lookup loclCAT {
+        sub l periodcentered' l by periodcentered.loclCAT;
+        sub L periodcentered' L by periodcentered.loclCAT.case;
+    } loclCAT;
+    
+    language NLD;
+    lookup loclNLD {
+        sub I J by IJ;
+        sub i j by ij;
+        sub Iacute J by IJacute;
+        sub iacute j by ijacute;
+    } loclNLD;
+    
+} locl;
+
+feature liga {
+    sub t t by t_t;
+    sub @ftr f' by f.short;
+    sub @ftr t' by t.short;
+    # force case sensitive punctuation
+    sub @punctuationUppercaseOff' @uppercase @uppercase by @punctuationUppercaseOn;
+    sub @punctuationUppercaseOff' @uppercase @punctuationUppercaseOff by @punctuationUppercaseOn;
+    sub @uppercase @punctuationUppercaseOff' by @punctuationUppercaseOn;
+} liga;
+
+feature tnum {
+    sub @figures by @figuresTabular;
+} tnum;
+
+feature case {
+    sub @punctuationUppercaseOff by @punctuationUppercaseOn;
+    sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+} case;
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb.cap" format="2">
+  <advance width="0"/>
+  <guideline x="66" y="0" angle="90" identifier="Z9TsajoOq0"/>
+  <anchor x="0" y="800" name="_top"/>
+  <outline>
+    <contour>
+      <point x="66" y="800" type="line"/>
+      <point x="20" y="900" type="line"/>
+      <point x="-130" y="900" type="line"/>
+      <point x="-66" y="800" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.8,1,1</string>
+    </dict>
+  </lib>
+</glyph>

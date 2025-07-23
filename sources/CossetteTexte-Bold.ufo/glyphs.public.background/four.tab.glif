@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="30" y="150" type="line"/>
+      <point x="570" y="150" type="line"/>
+      <point x="570" y="310" type="line"/>
+      <point x="80" y="310" type="line"/>
+      <point x="135" y="250" type="line"/>
+      <point x="365" y="720" type="line"/>
+      <point x="320" y="720" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="460" y="800" type="line"/>
+      <point x="260" y="800" type="line"/>
+      <point x="30" y="330" type="line"/>
+    </contour>
+    <contour>
+      <point x="290" y="610" type="line"/>
+      <point x="340" y="610" type="line"/>
+      <point x="340" y="640" type="line"/>
+      <point x="290" y="640" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-07-23 14:17:36 +0000</string>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

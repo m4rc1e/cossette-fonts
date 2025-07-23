@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wacute" format="2">
+  <advance width="866"/>
+  <unicode hex="1E82"/>
+  <outline>
+    <contour>
+      <point x="173" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="413" y="570" type="line"/>
+      <point x="428" y="660" type="line"/>
+      <point x="438" y="660" type="line"/>
+      <point x="453" y="570" type="line"/>
+      <point x="563" y="0" type="line"/>
+      <point x="693" y="0" type="line"/>
+      <point x="853" y="800" type="line"/>
+      <point x="758" y="800" type="line"/>
+      <point x="648" y="230" type="line"/>
+      <point x="633" y="140" type="line"/>
+      <point x="623" y="140" type="line"/>
+      <point x="608" y="230" type="line"/>
+      <point x="498" y="800" type="line"/>
+      <point x="368" y="800" type="line"/>
+      <point x="258" y="230" type="line"/>
+      <point x="243" y="140" type="line"/>
+      <point x="233" y="140" type="line"/>
+      <point x="218" y="230" type="line"/>
+      <point x="108" y="800" type="line"/>
+      <point x="13" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="800" type="line"/>
+      <point x="458" y="800" type="line"/>
+      <point x="558" y="900" type="line"/>
+      <point x="438" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

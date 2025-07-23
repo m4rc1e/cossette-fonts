@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.case" format="2">
+  <advance width="400"/>
+  <outline>
+    <component base="parenright" yOffset="100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-07-23 14:17:36 +0000</string>
+      <key>public.markColor</key>
+      <string>0.6,1,1,1</string>
+    </dict>
+  </lib>
+</glyph>
