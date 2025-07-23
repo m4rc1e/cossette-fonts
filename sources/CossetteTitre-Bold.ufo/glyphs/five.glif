@@ -39,7 +39,6 @@
     </contour>
     <contour>
       <point x="222" y="-10" type="line"/>
-      <point x="222" y="-10" type="line"/>
     </contour>
   </outline>
   <lib>

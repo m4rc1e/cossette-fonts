@@ -2,14 +2,14 @@
 <glyph name="I" format="2">
   <advance width="256"/>
   <unicode hex="0049"/>
-  <anchor x="128" y="800" name="top"/>
-  <anchor x="173" y="0" name="ogonek"/>
+  <anchor x="128.0" y="800" name="top"/>
+  <anchor x="173.0" y="0" name="ogonek"/>
   <outline>
     <contour>
-      <point x="83" y="0" type="line"/>
-      <point x="173" y="0" type="line"/>
-      <point x="173" y="800" type="line"/>
-      <point x="83" y="800" type="line"/>
+      <point x="83.0" y="0.0" type="line"/>
+      <point x="173.0" y="0.0" type="line"/>
+      <point x="173.0" y="800.0" type="line"/>
+      <point x="83.0" y="800.0" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -24,7 +24,6 @@
     </contour>
     <contour>
       <point x="232" y="600" type="line"/>
-      <point x="232" y="600" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macroncomb.cap" format="2">
-  <advance width="0"/>
-  <anchor x="0" y="800" name="_top"/>
+  <anchor x="0.0" y="800.0" name="_top"/>
   <outline>
     <contour>
       <point x="-150" y="800" type="line"/>
@@ -12,8 +11,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-07-23 14:17:26 +0000</string>
       <key>public.markColor</key>
       <string>0,1,0,1</string>
     </dict>

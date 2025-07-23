@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb" format="2">
-  <advance width="0"/>
-  <unicode hex="0306"/>
-  <anchor x="0" y="600" name="_top"/>
+  <anchor x="0.0" y="600" name="_top"/>
   <outline>
     <contour>
       <point x="0" y="680" type="curve" smooth="yes"/>
@@ -23,8 +21,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-07-23 14:17:26 +0000</string>
       <key>public.markColor</key>
       <string>0,0,1,1</string>
     </dict>

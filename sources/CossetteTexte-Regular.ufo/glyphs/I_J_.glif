@@ -2,8 +2,6 @@
 <glyph name="IJ" format="2">
   <advance width="656"/>
   <unicode hex="0132"/>
-  <anchor x="537" y="800" name="top"/>
-  <anchor x="537" y="800" name="top"/>
   <outline>
     <contour>
       <point x="163" y="400" type="line"/>
@@ -32,8 +30,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-07-23 14:53:54 +0000</string>
       <key>public.markColor</key>
       <string>0,1,0,1</string>
     </dict>

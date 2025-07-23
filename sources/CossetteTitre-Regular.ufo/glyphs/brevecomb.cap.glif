@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb.cap" format="2">
-  <advance width="0"/>
-  <anchor x="0" y="800" name="_top"/>
+  <anchor x="0" y="800.0" name="_top"/>
   <outline>
     <contour>
       <point x="0" y="790" type="curve" smooth="yes"/>

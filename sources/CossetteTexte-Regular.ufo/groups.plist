@@ -40,9 +40,9 @@
     </array>
     <key>public.kern1.E</key>
     <array>
-      <string>AE</string>
       <string>E</string>
       <string>Eacute</string>
+      <string>AE</string>
       <string>Ecaron</string>
       <string>Ecircumflex</string>
       <string>Edieresis</string>
@@ -80,6 +80,7 @@
     <key>public.kern1.JU</key>
     <array>
       <string>IJ</string>
+      <string>IJacute</string>
       <string>J</string>
       <string>U</string>
       <string>Uacute</string>
@@ -90,8 +91,6 @@
       <string>Umacron</string>
       <string>Uogonek</string>
       <string>Uring</string>
-      <string>Iacute_J.loclNLD</string>
-      <string>I_J.loclNLD</string>
     </array>
     <key>public.kern1.K</key>
     <array>
@@ -181,7 +180,6 @@
     <array>
       <string>ae</string>
       <string>b</string>
-      <string>eth</string>
       <string>e</string>
       <string>eacute</string>
       <string>ecaron</string>
@@ -191,15 +189,16 @@
       <string>egrave</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>eth</string>
       <string>o</string>
       <string>oacute</string>
       <string>ocircumflex</string>
       <string>odieresis</string>
+      <string>oe</string>
       <string>ograve</string>
       <string>ohungarumlaut</string>
       <string>oslash</string>
       <string>otilde</string>
-      <string>oe</string>
       <string>p</string>
       <string>thorn</string>
     </array>
@@ -218,16 +217,16 @@
     </array>
     <key>public.kern1.dash</key>
     <array>
-      <string>periodcentered</string>
-      <string>hyphen</string>
-      <string>endash</string>
       <string>emdash</string>
+      <string>endash</string>
+      <string>hyphen</string>
+      <string>periodcentered</string>
     </array>
     <key>public.kern1.dash_case</key>
     <array>
-      <string>hyphen.case</string>
-      <string>endash.case</string>
       <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
     </array>
     <key>public.kern1.dijl</key>
     <array>
@@ -236,18 +235,18 @@
       <string>iacute</string>
       <string>idotaccent</string>
       <string>igrave</string>
-      <string>iogonek</string>
       <string>ij</string>
+      <string>ijacute</string>
+      <string>iogonek</string>
       <string>j</string>
       <string>l</string>
       <string>lacute</string>
       <string>lcommaaccent</string>
-      <string>iacute_j.loclNLD</string>
     </array>
     <key>public.kern1.eight</key>
     <array>
-      <string>three</string>
       <string>eight</string>
+      <string>three</string>
     </array>
     <key>public.kern1.f</key>
     <array>
@@ -256,6 +255,8 @@
     </array>
     <key>public.kern1.gqu</key>
     <array>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
       <string>g</string>
       <string>gbreve</string>
       <string>gcommaaccent</string>
@@ -270,8 +271,6 @@
       <string>umacron</string>
       <string>uogonek</string>
       <string>uring</string>
-      <string>idotless</string>
-      <string>jdotless</string>
     </array>
     <key>public.kern1.guilleft</key>
     <array>
@@ -311,11 +310,11 @@
     </array>
     <key>public.kern1.periodcomma</key>
     <array>
-      <string>period</string>
       <string>comma</string>
       <string>ellipsis</string>
-      <string>quotesinglbase</string>
+      <string>period</string>
       <string>quotedblbase</string>
+      <string>quotesinglbase</string>
     </array>
     <key>public.kern1.quote</key>
     <array>
@@ -349,40 +348,40 @@
     <key>public.kern1.t</key>
     <array>
       <string>t</string>
+      <string>t.short</string>
+      <string>t_t</string>
       <string>tcaron</string>
       <string>tcedilla</string>
       <string>tcommaaccent</string>
-      <string>t.short</string>
-      <string>t_t</string>
     </array>
     <key>public.kern1.tabular</key>
     <array>
-      <string>zero.tab</string>
-      <string>one.tab</string>
-      <string>two.tab</string>
-      <string>three.tab</string>
-      <string>four.tab</string>
-      <string>five.tab</string>
-      <string>six.tab</string>
-      <string>seven.tab</string>
-      <string>eight.tab</string>
-      <string>nine.tab</string>
-      <string>section</string>
       <string>Euro</string>
+      <string>asciicircum</string>
+      <string>asciitilde</string>
       <string>cent</string>
-      <string>dollar</string>
-      <string>sterling</string>
-      <string>yen</string>
-      <string>plus</string>
-      <string>minus</string>
-      <string>multiply</string>
       <string>divide</string>
+      <string>dollar</string>
+      <string>eight.tab</string>
       <string>equal</string>
+      <string>five.tab</string>
+      <string>four.tab</string>
       <string>greater</string>
       <string>less</string>
-      <string>asciitilde</string>
-      <string>asciicircum</string>
+      <string>minus</string>
+      <string>multiply</string>
+      <string>nine.tab</string>
+      <string>one.tab</string>
       <string>percent</string>
+      <string>plus</string>
+      <string>section</string>
+      <string>seven.tab</string>
+      <string>six.tab</string>
+      <string>sterling</string>
+      <string>three.tab</string>
+      <string>two.tab</string>
+      <string>yen</string>
+      <string>zero.tab</string>
     </array>
     <key>public.kern1.vy</key>
     <array>
@@ -410,12 +409,13 @@
     </array>
     <key>public.kern1.zero</key>
     <array>
-      <string>zero</string>
       <string>nine</string>
+      <string>zero</string>
     </array>
     <key>public.kern2.A</key>
     <array>
       <string>A</string>
+      <string>AE</string>
       <string>Aacute</string>
       <string>Abreve</string>
       <string>Acircumflex</string>
@@ -425,7 +425,6 @@
       <string>Aogonek</string>
       <string>Aring</string>
       <string>Atilde</string>
-      <string>AE</string>
     </array>
     <key>public.kern2.BDEFHIKLMNPR</key>
     <array>
@@ -465,10 +464,10 @@
       <string>Ncommaaccent</string>
       <string>Ntilde</string>
       <string>P</string>
-      <string>Thorn</string>
       <string>R</string>
       <string>Racute</string>
       <string>Rcaron</string>
+      <string>Thorn</string>
     </array>
     <key>public.kern2.CGOQ</key>
     <array>
@@ -482,6 +481,7 @@
       <string>Gcommaaccent</string>
       <string>Gdotaccent</string>
       <string>O</string>
+      <string>OE</string>
       <string>Oacute</string>
       <string>Ocircumflex</string>
       <string>Odieresis</string>
@@ -489,7 +489,6 @@
       <string>Ohungarumlaut</string>
       <string>Oslash</string>
       <string>Otilde</string>
-      <string>OE</string>
       <string>Q</string>
     </array>
     <key>public.kern2.S</key>
@@ -510,6 +509,7 @@
     <key>public.kern2.U</key>
     <array>
       <string>IJ</string>
+      <string>IJacute</string>
       <string>U</string>
       <string>Uacute</string>
       <string>Ucircumflex</string>
@@ -519,8 +519,6 @@
       <string>Umacron</string>
       <string>Uogonek</string>
       <string>Uring</string>
-      <string>Iacute_J.loclNLD</string>
-      <string>I_J.loclNLD</string>
     </array>
     <key>public.kern2.W</key>
     <array>
@@ -552,18 +550,18 @@
       <string>abreve</string>
       <string>acircumflex</string>
       <string>adieresis</string>
+      <string>ae</string>
       <string>agrave</string>
       <string>amacron</string>
       <string>aogonek</string>
       <string>aring</string>
       <string>atilde</string>
-      <string>ae</string>
     </array>
     <key>public.kern2.at_case</key>
     <array>
+      <string>at.case</string>
       <string>copyright</string>
       <string>registered</string>
-      <string>at.case</string>
     </array>
     <key>public.kern2.bhijkl</key>
     <array>
@@ -573,8 +571,9 @@
       <string>iacute</string>
       <string>idotaccent</string>
       <string>igrave</string>
-      <string>iogonek</string>
       <string>ij</string>
+      <string>ijacute</string>
+      <string>iogonek</string>
       <string>j</string>
       <string>k</string>
       <string>kcommaaccent</string>
@@ -583,7 +582,6 @@
       <string>lcaron</string>
       <string>lcommaaccent</string>
       <string>thorn</string>
-      <string>iacute_j.loclNLD</string>
     </array>
     <key>public.kern2.cdegoq</key>
     <array>
@@ -595,7 +593,6 @@
       <string>d</string>
       <string>dcaron</string>
       <string>dcroat</string>
-      <string>eth</string>
       <string>e</string>
       <string>eacute</string>
       <string>ecaron</string>
@@ -605,6 +602,7 @@
       <string>egrave</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>eth</string>
       <string>g</string>
       <string>gbreve</string>
       <string>gcommaaccent</string>
@@ -613,11 +611,11 @@
       <string>oacute</string>
       <string>ocircumflex</string>
       <string>odieresis</string>
+      <string>oe</string>
       <string>ograve</string>
       <string>ohungarumlaut</string>
       <string>oslash</string>
       <string>otilde</string>
-      <string>oe</string>
       <string>q</string>
     </array>
     <key>public.kern2.colonsemi</key>
@@ -627,16 +625,16 @@
     </array>
     <key>public.kern2.dash</key>
     <array>
-      <string>periodcentered</string>
-      <string>hyphen</string>
-      <string>endash</string>
       <string>emdash</string>
+      <string>endash</string>
+      <string>hyphen</string>
+      <string>periodcentered</string>
     </array>
     <key>public.kern2.dash_case</key>
     <array>
-      <string>hyphen.case</string>
-      <string>endash.case</string>
       <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
     </array>
     <key>public.kern2.eight</key>
     <array>
@@ -675,6 +673,8 @@
     </array>
     <key>public.kern2.mnprj</key>
     <array>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
       <string>m</string>
       <string>n</string>
       <string>nacute</string>
@@ -685,8 +685,6 @@
       <string>r</string>
       <string>racute</string>
       <string>rcaron</string>
-      <string>idotless</string>
-      <string>jdotless</string>
     </array>
     <key>public.kern2.ordinal</key>
     <array>
@@ -695,11 +693,11 @@
     </array>
     <key>public.kern2.periodcomma</key>
     <array>
-      <string>period</string>
       <string>comma</string>
       <string>ellipsis</string>
-      <string>quotesinglbase</string>
+      <string>period</string>
       <string>quotedblbase</string>
+      <string>quotesinglbase</string>
     </array>
     <key>public.kern2.quote</key>
     <array>
@@ -727,40 +725,40 @@
     <key>public.kern2.t</key>
     <array>
       <string>t</string>
+      <string>t.short</string>
+      <string>t_t</string>
       <string>tcaron</string>
       <string>tcedilla</string>
       <string>tcommaaccent</string>
-      <string>t.short</string>
-      <string>t_t</string>
     </array>
     <key>public.kern2.tabular</key>
     <array>
-      <string>zero.tab</string>
-      <string>one.tab</string>
-      <string>two.tab</string>
-      <string>three.tab</string>
-      <string>four.tab</string>
-      <string>five.tab</string>
-      <string>six.tab</string>
-      <string>seven.tab</string>
-      <string>eight.tab</string>
-      <string>nine.tab</string>
-      <string>section</string>
       <string>Euro</string>
+      <string>asciicircum</string>
+      <string>asciitilde</string>
       <string>cent</string>
-      <string>dollar</string>
-      <string>sterling</string>
-      <string>yen</string>
-      <string>plus</string>
-      <string>minus</string>
-      <string>multiply</string>
       <string>divide</string>
+      <string>dollar</string>
+      <string>eight.tab</string>
       <string>equal</string>
+      <string>five.tab</string>
+      <string>four.tab</string>
       <string>greater</string>
       <string>less</string>
-      <string>asciitilde</string>
-      <string>asciicircum</string>
+      <string>minus</string>
+      <string>multiply</string>
+      <string>nine.tab</string>
+      <string>one.tab</string>
       <string>percent</string>
+      <string>plus</string>
+      <string>section</string>
+      <string>seven.tab</string>
+      <string>six.tab</string>
+      <string>sterling</string>
+      <string>three.tab</string>
+      <string>two.tab</string>
+      <string>yen</string>
+      <string>zero.tab</string>
     </array>
     <key>public.kern2.u</key>
     <array>
@@ -800,8 +798,8 @@
     </array>
     <key>public.kern2.zero</key>
     <array>
-      <string>zero</string>
       <string>six</string>
+      <string>zero</string>
     </array>
   </dict>
 </plist>

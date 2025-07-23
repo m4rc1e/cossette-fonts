@@ -7,8 +7,12 @@
       <string>glyphs</string>
     </array>
     <array>
-      <string>public.background</string>
-      <string>glyphs.public.background</string>
+      <string>display</string>
+      <string>glyphs.display</string>
+    </array>
+    <array>
+      <string>background</string>
+      <string>glyphs.background</string>
     </array>
   </array>
 </plist>

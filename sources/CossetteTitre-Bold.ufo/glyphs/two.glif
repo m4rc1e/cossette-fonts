@@ -30,7 +30,6 @@
     </contour>
     <contour>
       <point x="30" y="50" type="line"/>
-      <point x="30" y="50" type="line"/>
     </contour>
   </outline>
   <lib>

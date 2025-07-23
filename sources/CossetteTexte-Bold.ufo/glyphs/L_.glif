@@ -2,17 +2,17 @@
 <glyph name="L" format="2">
   <advance width="544"/>
   <unicode hex="004C"/>
-  <anchor x="142" y="800" name="top"/>
-  <anchor x="297" y="0" name="bottom"/>
-  <anchor x="217" y="600" name="caron.alt"/>
+  <anchor x="142.0" y="800" name="top"/>
+  <anchor x="297.0" y="0" name="bottom"/>
+  <anchor x="217.0" y="600" name="caron.alt"/>
   <outline>
     <contour>
-      <point x="67" y="0" type="line"/>
-      <point x="527" y="0" type="line"/>
-      <point x="527" y="160" type="line"/>
-      <point x="217" y="160" type="line"/>
-      <point x="217" y="800" type="line"/>
-      <point x="67" y="800" type="line"/>
+      <point x="67.0" y="0.0" type="line"/>
+      <point x="527.0" y="0.0" type="line"/>
+      <point x="527.0" y="160.0" type="line"/>
+      <point x="217.0" y="160.0" type="line"/>
+      <point x="217.0" y="800.0" type="line"/>
+      <point x="67.0" y="800.0" type="line"/>
     </contour>
   </outline>
   <lib>

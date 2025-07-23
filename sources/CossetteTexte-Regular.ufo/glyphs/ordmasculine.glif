@@ -7,13 +7,13 @@
       <point x="50" y="600" type="curve" smooth="yes"/>
       <point x="50" y="468"/>
       <point x="110" y="390"/>
-      <point x="205" y="390" type="curve" smooth="yes"/>
+      <point x="205.0" y="390.0" type="curve" smooth="yes"/>
       <point x="300" y="390"/>
       <point x="360" y="468"/>
       <point x="360" y="600" type="curve" smooth="yes"/>
       <point x="360" y="732"/>
       <point x="300" y="810"/>
-      <point x="205" y="810" type="curve" smooth="yes"/>
+      <point x="205.0" y="810.0" type="curve" smooth="yes"/>
       <point x="110" y="810"/>
       <point x="50" y="732"/>
     </contour>

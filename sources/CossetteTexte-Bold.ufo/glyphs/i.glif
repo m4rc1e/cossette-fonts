@@ -2,19 +2,19 @@
 <glyph name="i" format="2">
   <advance width="264"/>
   <unicode hex="0069"/>
-  <anchor x="207" y="0" name="ogonek"/>
+  <anchor x="207.0" y="0" name="ogonek"/>
   <outline>
     <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="207" y="0" type="line"/>
-      <point x="207" y="600" type="line"/>
-      <point x="57" y="600" type="line"/>
+      <point x="57.0" y="0.0" type="line"/>
+      <point x="207.0" y="0.0" type="line"/>
+      <point x="207.0" y="600.0" type="line"/>
+      <point x="57.0" y="600.0" type="line"/>
     </contour>
     <contour>
-      <point x="57" y="660" type="line"/>
-      <point x="207" y="660" type="line"/>
-      <point x="207" y="800" type="line"/>
-      <point x="57" y="800" type="line"/>
+      <point x="57.0" y="660.0" type="line"/>
+      <point x="207.0" y="660.0" type="line"/>
+      <point x="207.0" y="800.0" type="line"/>
+      <point x="57.0" y="800.0" type="line"/>
     </contour>
   </outline>
   <lib>

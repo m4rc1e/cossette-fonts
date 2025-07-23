@@ -2,15 +2,15 @@
 <glyph name="l" format="2">
   <advance width="264"/>
   <unicode hex="006C"/>
-  <anchor x="132" y="800" name="top"/>
-  <anchor x="132" y="0" name="bottom"/>
-  <anchor x="207" y="600" name="caron.alt"/>
+  <anchor x="132.0" y="800" name="top"/>
+  <anchor x="132.0" y="0" name="bottom"/>
+  <anchor x="207.0" y="600" name="caron.alt"/>
   <outline>
     <contour>
-      <point x="57" y="0" type="line"/>
-      <point x="207" y="0" type="line"/>
-      <point x="207" y="800" type="line"/>
-      <point x="57" y="800" type="line"/>
+      <point x="57.0" y="0.0" type="line"/>
+      <point x="207.0" y="0.0" type="line"/>
+      <point x="207.0" y="800.0" type="line"/>
+      <point x="57.0" y="800.0" type="line"/>
     </contour>
   </outline>
   <lib>

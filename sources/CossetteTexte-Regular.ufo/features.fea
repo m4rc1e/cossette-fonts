@@ -1,19 +1,6 @@
-@figures = [ zero one two three four five six seven eight nine ];
-
-@figuresTabular = [ zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab ];
-
-@punctuationUppercaseOff = [ hyphen endash emdash bar parenleft parenright bracketleft bracketright braceleft braceright guillemetleft guillemetright guilsinglleft guilsinglright exclamdown questiondown at ];
-
-@punctuationUppercaseOn = [ hyphen.case endash.case emdash.case bar.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case exclamdown.case questiondown.case at.case ];
-
-@ftr = [ f t r f.short t.short ];
-
-# automatic
-@uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Iacute_J.loclNLD I_J.loclNLD ];
-
-# Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+
 languagesystem latn AZE;
 languagesystem latn CRT;
 languagesystem latn KAZ;
@@ -24,56 +11,57 @@ languagesystem latn MOL;
 languagesystem latn CAT;
 languagesystem latn NLD;
 
-feature aalt {
-# automatic
-feature locl;
-feature tnum;
-feature case;
-feature ordn;
-} aalt;
+@figures = [zero one two three four five six seven eight nine];
+@figuresTabular = [zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab];
+
+@punctuationUppercaseOff = [hyphen endash emdash bar parenleft parenright bracketleft bracketright braceleft braceright guillemetleft guillemetright guilsinglleft guilsinglright exclamdown questiondown at];
+@punctuationUppercaseOn = [hyphen.case endash.case emdash.case bar.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case exclamdown.case questiondown.case at.case];
+
+@uppercase = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Cdotaccent D Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth F G Gbreve Gcommaaccent Gdotaccent Germandbls H Hbar I IJ IJacute Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scedilla Scommaaccent T Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent zero one two three four five six seven eight nine zero.tab one.tab two.tab three.tab four.tab five.tab six.tab seven.tab eight.tab nine.tab];
+
+@ftr = [f t r f.short t.short]; 
 
 feature locl {
-# automatic
-script latn;
-language AZE;
-lookup locl_latn_0 {
-	sub i by idotaccent;
-} locl_latn_0;
-language CRT;
-lookup locl_latn_0;
-language KAZ;
-lookup locl_latn_0;
-language TAT;
-lookup locl_latn_0;
-language TRK;
-lookup locl_latn_0;
-
-script latn;
-language ROM;
-lookup locl_latn_1 {
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-} locl_latn_1;
-language MOL;
-lookup locl_latn_1;
-
-script latn;
-language NLD;
-lookup locl_latn_2 {
-	sub I J by I_J.loclNLD;
-	sub i j by i_j.loclNLD;
-	sub iacute j by iacute_j.loclNLD;
-	sub Iacute J by Iacute_J.loclNLD;
-} locl_latn_2;
-
-script latn;
-language CAT;
-lookup locl_latn_3 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_3;
+    
+    script latn;
+    
+    language AZE;
+    lookup loclTRK {
+	    sub i by idotaccent;
+    } loclTRK;
+    language CRT;
+    lookup loclTRK;
+    language KAZ;
+    lookup loclTRK;
+    language TAT;
+    lookup loclTRK;
+    language TRK;
+    lookup loclTRK;
+    
+    language ROM;
+    lookup loclROM {
+	    sub Scedilla by Scommaaccent;
+	    sub scedilla by scommaaccent;
+	    sub Tcedilla by Tcommaaccent;
+	    sub tcedilla by tcommaaccent;
+    } loclROM;
+    language MOL;
+    lookup loclROM;
+    
+    language CAT; 
+    lookup loclCAT {
+        sub l periodcentered' l by periodcentered.loclCAT;
+        sub L periodcentered' L by periodcentered.loclCAT.case;
+    } loclCAT;
+    
+    language NLD;
+    lookup loclNLD {
+        sub I J by IJ;
+        sub i j by ij;
+        sub Iacute J by IJacute;
+        sub iacute j by ijacute;
+    } loclNLD;
+    
 } locl;
 
 feature liga {
@@ -94,30 +82,3 @@ feature case {
     sub @punctuationUppercaseOff by @punctuationUppercaseOn;
     sub periodcentered.loclCAT by periodcentered.loclCAT.case;
 } case;
-
-feature ordn {
-# automatic
-sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-} ordn;
-
-feature dlig {
-# automatic
-lookupflag IgnoreMarks;
-sub t t by t_t;
-} dlig;
-
-feature ccmp {
-
-} ccmp;
-
-feature ccmp {
-lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-} ccmp_DFLT_1;
-} ccmp;
-
