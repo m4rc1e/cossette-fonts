@@ -154,6 +154,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <string>Cossette Titre</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
     <key>openTypeOS2TypoAscender</key>
     <integer>1000</integer>
     <key>openTypeOS2TypoDescender</key>
