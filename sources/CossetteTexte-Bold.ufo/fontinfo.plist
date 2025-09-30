@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>800</integer>
     <key>copyright</key>
-    <string>Copyright 2025 The Cossette Texte Project Authors (https://github.com/cossette/cossette-fonts)</string>
+    <string>Copyright 2025 The Cossette Texte Project Authors (https://github.com/googlefonts/cossette-fonts)</string>
     <key>descender</key>
     <integer>-200</integer>
     <key>familyName</key>
@@ -124,7 +124,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>xHeight</key>
     <integer>600</integer>
   </dict>
